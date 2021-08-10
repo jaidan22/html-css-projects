@@ -1,0 +1,78 @@
+body {
+  background: rgb(48, 46, 194);
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  line-height: 1.5;
+  font-weight: 400;
+}
+header {
+  background: darkblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 2em 2.5em 2em 2.5em;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 0.6;
+}
+#description {
+  font-size: 0.9em;
+  text-align: center;
+}
+form {
+  justify-content: center;
+  background: rgba(27, 27, 50, 0.8);
+  max-width: 700px;
+  padding: 4em;
+  border-radius: 10px;
+  margin: 4em auto;
+}
+label {
+  display: flex;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  align-items: center;
+}
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label,
+#comments-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#comments {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 10px;
+  font-size: 15px;
+}
+p {
+  text-align: left;
+  font-size: 1.5em;
+}
+fieldset {
+  margin: 2em auto 2em auto;
+}
+#comments {
+  min-height: 120px;
+  resize: vertical;
+  padding: 0.62rem;
+}
+button {
+  width: 100%;
+  height: 2.3em;
+  background: chartreuse;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
