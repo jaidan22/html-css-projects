@@ -64,11 +64,15 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+ol.product-details {
+  padding-left: 0;
+}
 li {
   list-style: none;
 }
 @media (max-width: 600px) {
   header {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,6 +84,9 @@ li {
   #video {
     width: 100%;
     height: auto;
+  }
+  main {
+    padding-top: 0;
   }
 }
 #title-div {
@@ -135,6 +142,7 @@ div.f-desc {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 10px;
 }
 .feature-head {
   font-size: 20px;
